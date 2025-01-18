@@ -28,7 +28,7 @@ a{
     justify-content: space-between;
 }
 a:hover,#main-btn:hover{
-    color: violet;
+    color: rgb(202, 65, 202);
     transition: color;
 }
 #footer{
@@ -42,11 +42,12 @@ a:hover,#main-btn:hover{
 }
 #main{
   
-    border: 1px solid black;
+   
     margin:10rem auto;
     text-align: center;
     font-size: 1.5rem;
     color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     
 }
@@ -57,9 +58,14 @@ a:hover,#main-btn:hover{
     color: white;
     border: none;
     border-radius: 5px;
-    font-size:2rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
+    font-size:1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   
+}
+#main-btn:hover{
+    background-color: rgb(116, 59, 169);
+    transition: color 1s ease;
 }
 #header-span{
     color: blueviolet;
