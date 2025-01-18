@@ -9,7 +9,7 @@ body{
     justify-content: space-between;
     height: fit-content;
     color: white;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 #nav-links{
     display: flex;
@@ -27,7 +27,7 @@ a{
     display: flex;
     justify-content: space-between;
 }
-a:hover{
+a:hover,#main-btn:hover{
     color: violet;
     transition: color;
 }
@@ -43,10 +43,26 @@ a:hover{
 #main{
   
     border: 1px solid black;
-    margin:4rem auto;
+    margin:10rem auto;
     text-align: center;
     font-size: 1.5rem;
     color: grey;
 
     
+}
+#main-btn{
+    width: 10rem;
+    height: 2rem;
+    background-color:rgb(157, 71, 238);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size:2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+#header-span{
+    color: blueviolet;
+    font-size: 3rem;
+
 }
